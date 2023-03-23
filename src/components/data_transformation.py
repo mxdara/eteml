@@ -1,6 +1,8 @@
 import sys
 sys.path.insert(0, '/Users/sameer/Documents/GitHub/eteml/src')
 from dataclasses import dataclass
+import sys
+from dataclasses import dataclass
 
 import numpy as np 
 import pandas as pd
@@ -123,5 +125,3 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e,sys)
-        
-    
