@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/sameer/Documents/GitHub/eteml/venv
+exec_prefix=/Users/sameer/Documents/GitHub/eteml/venv
+libdir=/Users/sameer/Documents/GitHub/eteml/venv/lib
+includedir=/Users/sameer/Documents/GitHub/eteml/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

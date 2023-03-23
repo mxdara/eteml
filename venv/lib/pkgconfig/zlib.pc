@@ -1,0 +1,13 @@
+prefix=/Users/sameer/Documents/GitHub/eteml/venv
+exec_prefix=/Users/sameer/Documents/GitHub/eteml/venv
+libdir=/Users/sameer/Documents/GitHub/eteml/venv/lib
+sharedlibdir=/Users/sameer/Documents/GitHub/eteml/venv/lib
+includedir=/Users/sameer/Documents/GitHub/eteml/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
